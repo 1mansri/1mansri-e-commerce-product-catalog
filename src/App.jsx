@@ -100,7 +100,7 @@ const App = () => {
         <div className="container w-[100%] mr-auto ml-auto pl-[15px] pr-[15px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px]">
           {/* Search Bar and Sorting Controls */}
           <div className="flex justify-between items-center mb-10">
-            <form className="form relative w-[45%] pl-[5px] block transition-all duration-500 ease-linear hover:w-[50%] max-lg:w-[70%] max-lg:hover:w-[75%] max-md:w-[42%] max-md:hover:w-[45%]">
+            <form className="form relative w-[45%] pl-[5px] block transition-all duration-500 ease-linear hover:w-[50%] max-lg:w-[50%] max-lg:hover:w-[55%] max-md:w-[42%] max-md:hover:w-[45%]">
               <button className="absolute left-3 -translate-y-1/2 top-[55%] p-1">
                 <svg
                   width={17}
