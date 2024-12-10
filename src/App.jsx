@@ -96,11 +96,11 @@ const App = () => {
       {/* Product catalog section */}
       {/* use accerenity ai for background grid (classname='bg-grid-black/[0.2]') */}
       <section className="product py-[30px] px-0 bg-grid-black/[0.2] "> 
-        <h1 className="text-6xl max-md:text-4xl text-black font-bold font-sans pb-10 flex justify-center" >Product Catalog</h1>
+        <h1 className="md:text-6xl text-2xl sm:text-4xl text-black font-bold font-sans pb-10 flex justify-center" >Product Catalog</h1>
         <div className="container w-[100%] mr-auto ml-auto pl-[15px] pr-[15px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px]">
           {/* Search Bar and Sorting Controls */}
           <div className="flex justify-between items-center mb-10">
-            <form className="form relative w-[45%] pl-[5px] block transition-all duration-500 ease-linear hover:w-[50%] max-lg:w-[70%] max-lg:hover:w-[75%] max-md:w-[52%] max-md:hover:w-[45%]">
+            <form className="form relative w-[45%] pl-[5px] block transition-all duration-500 ease-linear hover:w-[50%] max-lg:w-[70%] max-lg:hover:w-[75%] max-md:w-[42%] max-md:hover:w-[45%]">
               <button className="absolute left-3 -translate-y-1/2 top-[55%] p-1">
                 <svg
                   width={17}
@@ -148,7 +148,7 @@ const App = () => {
             </form>
 
             {/* Sorting Dropdown */} 
-            <div className="w-[40%] text-right">
+            <div className="w-[35%] text-right">
               <select
                 className="sorting-dropdown w-full px-2 py-2 border rounded-lg shadow-lg shadow-black"
                 value={sortOption}
