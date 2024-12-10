@@ -1,18 +1,21 @@
+---
+
 # Product Catalog Application
 
 ## Overview
-This is a React-based Product Catalog Application that allows users to:
-- Search for products.
-- Sort them based on various attributes.
-- Navigate through pages with pagination functionality.
+This is a React-based Product Catalog Application designed to provide a seamless user experience. It includes:
+- **Accernity UI**: For visually appealing background grid effects.
+- **Shadcn UI**: For smooth and customizable pagination components.
+- **FakeStore API**: For fetching product data dynamically.
 
-The app fetches product data from the **FakeStore API**.
+---
 
 ## Features
-- **Search**: Filter products using a search bar.
-- **Sort**: Sort products by price, rating, or name (if implemented).
-- **Pagination**: Smooth navigation across pages.
-- **Responsive Design**: Mobile-friendly interface using Tailwind CSS.
+- **Search**: Easily filter products by keywords using the search bar.
+- **Sort**: Sorting functionality (if implemented) for better data management.
+- **Pagination**: Powered by Shadcn UI for a smooth, responsive experience.
+- **Responsive Design**: Built with Tailwind CSS for mobile-first layouts.
+- **Enhanced UI**: Background grid implemented using Accernity UI.
 
 ---
 
@@ -49,13 +52,25 @@ Ensure the following are installed on your system:
 
 ## Deployment
 
-The application is deployed on **[Vercel](https://1mansri-e-commerce-product-catalog-git-main-1mansris-projects.vercel.app/)**. 
+The application is deployed on **[Vercel](https://vercel.com)**. 
 
 ### Live Demo
 [Visit the Live App](https://1mansri-e-commerce-product-catalog-git-main-1mansris-projects.vercel.app/)
 
 ### Repository
 [GitHub Repository](https://github.com/1mansri/1mansri-e-commerce-product-catalog)
+
+---
+
+## UI Frameworks Used
+
+1. **Accernity UI**:  
+   Provides a visually appealing grid background to enhance the user experience.  
+   For more information, visit [Accernity UI Documentation](<link-to-accernity-docs>).
+
+2. **Shadcn UI**:  
+   Powers the elegant and responsive pagination component.  
+   For more information, visit [Shadcn UI Documentation](https://ui.shadcn.dev/).
 
 ---
 
@@ -66,6 +81,8 @@ This application fetches products from the [FakeStore API](https://fakestoreapi.
 
 ### Tailwind CSS
 The UI is styled using Tailwind CSS. If you need to customize styles, refer to the Tailwind CSS [documentation](https://tailwindcss.com/docs).
+
+
 
 ### Deployment Details
 If deploying on platforms other than Vercel:
